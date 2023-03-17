@@ -1,4 +1,15 @@
 <head>
+// Change the URL to your chatbot's API endpoint
+const CHATBOT_API_URL = "https://my-chatbot-api.com/";
+
+const chatbotWidget = document.getElementById("chatbot-widget");
+const chatbotMessages = document.getElementById("chatbot-messages");
+const chatbotInput = document.getElementById("chatbot-input");
+const chatbotForm = document.getElementById("chatbot-form");
+const chatbotLoading = document.getElementById("chatbot-loading");
+
+// Hide the chatbot widget by
+
 <style>
 #chatbot-widget {
   position: fixed;
